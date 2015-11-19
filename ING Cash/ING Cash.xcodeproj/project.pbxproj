@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA0FF6251BF8115700E6EA65 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FF6241BF8115700E6EA65 /* ContactsViewController.swift */; };
+		DA0FF6271BF845C600E6EA65 /* AtmMapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0FF6261BF845C600E6EA65 /* AtmMapPoint.swift */; };
+		DA413DB71BF6E8820042B284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA413DB61BF6E8820042B284 /* AppDelegate.swift */; };
+		DA413DB91BF6E8820042B284 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA413DB81BF6E8820042B284 /* FirstViewController.swift */; };
+		DA413DBB1BF6E8820042B284 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA413DBA1BF6E8820042B284 /* SecondViewController.swift */; };
+		DA413DBE1BF6E8820042B284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA413DBC1BF6E8820042B284 /* Main.storyboard */; };
+		DA413DC01BF6E8820042B284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA413DBF1BF6E8820042B284 /* Assets.xcassets */; };
+		DA413DC31BF6E8820042B284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA413DC11BF6E8820042B284 /* LaunchScreen.storyboard */; };
+		DA413DCE1BF6E8820042B284 /* ING_CashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA413DCD1BF6E8820042B284 /* ING_CashTests.swift */; };
+		DA413DD91BF6E8820042B284 /* ING_CashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA413DD81BF6E8820042B284 /* ING_CashUITests.swift */; };
+		DAB5467C1BF6F8DD00DCEF4D /* ING_lion.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB5467B1BF6F8DD00DCEF4D /* ING_lion.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA413DCA1BF6E8820042B284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA413DAB1BF6E8820042B284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA413DB21BF6E8820042B284;
+			remoteInfo = "ING Cash";
+		};
+		DA413DD51BF6E8820042B284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA413DAB1BF6E8820042B284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA413DB21BF6E8820042B284;
+			remoteInfo = "ING Cash";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA0FF6241BF8115700E6EA65 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		DA0FF6261BF845C600E6EA65 /* AtmMapPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtmMapPoint.swift; sourceTree = "<group>"; };
+		DA413DB31BF6E8820042B284 /* ING Cash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ING Cash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA413DB61BF6E8820042B284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA413DB81BF6E8820042B284 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DA413DBA1BF6E8820042B284 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DA413DBD1BF6E8820042B284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA413DBF1BF6E8820042B284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA413DC21BF6E8820042B284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA413DC41BF6E8820042B284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA413DC91BF6E8820042B284 /* ING CashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ING CashTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA413DCD1BF6E8820042B284 /* ING_CashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ING_CashTests.swift; sourceTree = "<group>"; };
+		DA413DCF1BF6E8820042B284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA413DD41BF6E8820042B284 /* ING CashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ING CashUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA413DD81BF6E8820042B284 /* ING_CashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ING_CashUITests.swift; sourceTree = "<group>"; };
+		DA413DDA1BF6E8820042B284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB5467B1BF6F8DD00DCEF4D /* ING_lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ING_lion.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA413DB01BF6E8820042B284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA413DC61BF6E8820042B284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA413DD11BF6E8820042B284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA413DAA1BF6E8820042B284 = {
+			isa = PBXGroup;
+			children = (
+				DA413DB51BF6E8820042B284 /* ING Cash */,
+				DA413DCC1BF6E8820042B284 /* ING CashTests */,
+				DA413DD71BF6E8820042B284 /* ING CashUITests */,
+				DA413DB41BF6E8820042B284 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA413DB41BF6E8820042B284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA413DB31BF6E8820042B284 /* ING Cash.app */,
+				DA413DC91BF6E8820042B284 /* ING CashTests.xctest */,
+				DA413DD41BF6E8820042B284 /* ING CashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA413DB51BF6E8820042B284 /* ING Cash */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5467A1BF6F8A100DCEF4D /* Images */,
+				DA413DB61BF6E8820042B284 /* AppDelegate.swift */,
+				DA413DB81BF6E8820042B284 /* FirstViewController.swift */,
+				DA413DBA1BF6E8820042B284 /* SecondViewController.swift */,
+				DA413DBC1BF6E8820042B284 /* Main.storyboard */,
+				DA413DBF1BF6E8820042B284 /* Assets.xcassets */,
+				DA413DC11BF6E8820042B284 /* LaunchScreen.storyboard */,
+				DA413DC41BF6E8820042B284 /* Info.plist */,
+				DA0FF6241BF8115700E6EA65 /* ContactsViewController.swift */,
+				DA0FF6261BF845C600E6EA65 /* AtmMapPoint.swift */,
+			);
+			path = "ING Cash";
+			sourceTree = "<group>";
+		};
+		DA413DCC1BF6E8820042B284 /* ING CashTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA413DCD1BF6E8820042B284 /* ING_CashTests.swift */,
+				DA413DCF1BF6E8820042B284 /* Info.plist */,
+			);
+			path = "ING CashTests";
+			sourceTree = "<group>";
+		};
+		DA413DD71BF6E8820042B284 /* ING CashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA413DD81BF6E8820042B284 /* ING_CashUITests.swift */,
+				DA413DDA1BF6E8820042B284 /* Info.plist */,
+			);
+			path = "ING CashUITests";
+			sourceTree = "<group>";
+		};
+		DAB5467A1BF6F8A100DCEF4D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5467B1BF6F8DD00DCEF4D /* ING_lion.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA413DB21BF6E8820042B284 /* ING Cash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA413DDD1BF6E8820042B284 /* Build configuration list for PBXNativeTarget "ING Cash" */;
+			buildPhases = (
+				DA413DAF1BF6E8820042B284 /* Sources */,
+				DA413DB01BF6E8820042B284 /* Frameworks */,
+				DA413DB11BF6E8820042B284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ING Cash";
+			productName = "ING Cash";
+			productReference = DA413DB31BF6E8820042B284 /* ING Cash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA413DC81BF6E8820042B284 /* ING CashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA413DE01BF6E8820042B284 /* Build configuration list for PBXNativeTarget "ING CashTests" */;
+			buildPhases = (
+				DA413DC51BF6E8820042B284 /* Sources */,
+				DA413DC61BF6E8820042B284 /* Frameworks */,
+				DA413DC71BF6E8820042B284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA413DCB1BF6E8820042B284 /* PBXTargetDependency */,
+			);
+			name = "ING CashTests";
+			productName = "ING CashTests";
+			productReference = DA413DC91BF6E8820042B284 /* ING CashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA413DD31BF6E8820042B284 /* ING CashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA413DE31BF6E8820042B284 /* Build configuration list for PBXNativeTarget "ING CashUITests" */;
+			buildPhases = (
+				DA413DD01BF6E8820042B284 /* Sources */,
+				DA413DD11BF6E8820042B284 /* Frameworks */,
+				DA413DD21BF6E8820042B284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA413DD61BF6E8820042B284 /* PBXTargetDependency */,
+			);
+			name = "ING CashUITests";
+			productName = "ING CashUITests";
+			productReference = DA413DD41BF6E8820042B284 /* ING CashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA413DAB1BF6E8820042B284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Planet K Games";
+				TargetAttributes = {
+					DA413DB21BF6E8820042B284 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6CGSY8527L;
+					};
+					DA413DC81BF6E8820042B284 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DA413DB21BF6E8820042B284;
+					};
+					DA413DD31BF6E8820042B284 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DA413DB21BF6E8820042B284;
+					};
+				};
+			};
+			buildConfigurationList = DA413DAE1BF6E8820042B284 /* Build configuration list for PBXProject "ING Cash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA413DAA1BF6E8820042B284;
+			productRefGroup = DA413DB41BF6E8820042B284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA413DB21BF6E8820042B284 /* ING Cash */,
+				DA413DC81BF6E8820042B284 /* ING CashTests */,
+				DA413DD31BF6E8820042B284 /* ING CashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA413DB11BF6E8820042B284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA413DC31BF6E8820042B284 /* LaunchScreen.storyboard in Resources */,
+				DA413DC01BF6E8820042B284 /* Assets.xcassets in Resources */,
+				DAB5467C1BF6F8DD00DCEF4D /* ING_lion.png in Resources */,
+				DA413DBE1BF6E8820042B284 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA413DC71BF6E8820042B284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA413DD21BF6E8820042B284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA413DAF1BF6E8820042B284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA413DBB1BF6E8820042B284 /* SecondViewController.swift in Sources */,
+				DA0FF6251BF8115700E6EA65 /* ContactsViewController.swift in Sources */,
+				DA413DB71BF6E8820042B284 /* AppDelegate.swift in Sources */,
+				DA0FF6271BF845C600E6EA65 /* AtmMapPoint.swift in Sources */,
+				DA413DB91BF6E8820042B284 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA413DC51BF6E8820042B284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA413DCE1BF6E8820042B284 /* ING_CashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA413DD01BF6E8820042B284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA413DD91BF6E8820042B284 /* ING_CashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA413DCB1BF6E8820042B284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA413DB21BF6E8820042B284 /* ING Cash */;
+			targetProxy = DA413DCA1BF6E8820042B284 /* PBXContainerItemProxy */;
+		};
+		DA413DD61BF6E8820042B284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA413DB21BF6E8820042B284 /* ING Cash */;
+			targetProxy = DA413DD51BF6E8820042B284 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA413DBC1BF6E8820042B284 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA413DBD1BF6E8820042B284 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA413DC11BF6E8820042B284 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA413DC21BF6E8820042B284 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA413DDB1BF6E8820042B284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA413DDC1BF6E8820042B284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA413DDE1BF6E8820042B284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "ING Cash/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PlanetKGames.ING-Cash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DA413DDF1BF6E8820042B284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "ING Cash/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PlanetKGames.ING-Cash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DA413DE11BF6E8820042B284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ING CashTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PlanetKGames.ING-CashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ING Cash.app/ING Cash";
+			};
+			name = Debug;
+		};
+		DA413DE21BF6E8820042B284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ING CashTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PlanetKGames.ING-CashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ING Cash.app/ING Cash";
+			};
+			name = Release;
+		};
+		DA413DE41BF6E8820042B284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ING CashUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PlanetKGames.ING-CashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ING Cash";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DA413DE51BF6E8820042B284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ING CashUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PlanetKGames.ING-CashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ING Cash";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA413DAE1BF6E8820042B284 /* Build configuration list for PBXProject "ING Cash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA413DDB1BF6E8820042B284 /* Debug */,
+				DA413DDC1BF6E8820042B284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA413DDD1BF6E8820042B284 /* Build configuration list for PBXNativeTarget "ING Cash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA413DDE1BF6E8820042B284 /* Debug */,
+				DA413DDF1BF6E8820042B284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA413DE01BF6E8820042B284 /* Build configuration list for PBXNativeTarget "ING CashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA413DE11BF6E8820042B284 /* Debug */,
+				DA413DE21BF6E8820042B284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA413DE31BF6E8820042B284 /* Build configuration list for PBXNativeTarget "ING CashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA413DE41BF6E8820042B284 /* Debug */,
+				DA413DE51BF6E8820042B284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA413DAB1BF6E8820042B284 /* Project object */;
+}
